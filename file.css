@@ -1,0 +1,297 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bree Serif", serif;
+}
+/**/
+nav {
+  background: rgba(216, 97, 51, 0.74);
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+            
+
+.nav-table {
+  display: table;
+  margin: 0 auto;
+}
+.nav-navbar {
+  list-style: none;
+}
+li {
+  float: left;
+  padding: 35px 0;
+  margin-left: 90px;
+  display: inline;
+}
+a {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+a:hover {
+  color: #00b4fb;
+  transition: 0.3s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.home {
+  background: #d3d3d3;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% auto;
+  /*background-color: #2196F3; */
+}
+
+.border-img {
+  width: 360px;
+  height: 360px;
+  border:  4px rgba(216, 97, 51, 0.74) dotted;
+  border-radius: 50%;
+  margin: 3em auto;
+  /*
+      animation :spin 15s linear infinite;
+  */
+}
+
+.home-img {
+  width: 350px;
+  height: 350px;
+
+  border-radius: 50%;
+  margin: 2px;
+  padding: 5px;
+ 
+  /*
+      animation : nospin 15s linear infinite;
+  */
+}
+
+/*
+@keyframes spin { 
+  100% { 
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes nospin { 
+  100% { 
+    transform: rotateZ(-360deg);
+  }
+}
+*/
+
+
+
+.home-content {
+  margin: 9em 3em 9em auto;
+}
+.content-title {
+  font-size: 29px;
+  color: rgba(216, 97, 54,0.74);
+  margin-bottom: 1em;
+}
+.content-text {
+  font-size: 19px;
+  line-height: 1.7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-work {
+  margin: 3em auto;
+  background: rgba(216, 97, 51, 0.74);
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.card-work:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.card-content {
+  border: 4px solid #f0d7d7;
+  border-radius: inherit;
+  padding: 20px;
+}
+.card-img {
+  width: 330px;
+  height: 310px;
+  margin: 15px;
+  border-radius: 50px;
+}
+.card-content hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #f0d7d7;
+  margin: 1em 0;
+  padding: 0;
+}
+.card-text {
+  width: 240px;
+  padding: 20px;
+  text-align: center;
+  margin: 1px auto;
+  color: #eee;
+}
+
+
+
+
+.contact                       ,.about, .last {
+  background-color: rgba(216, 98, 51, 0.637);
+}
+
+
+
+
+.contact-form {
+  width: 100%;
+  margin: 4em auto;
+  margin-left: 5em;
+  padding: 20px;
+}
+.item {
+  margin: 1.5em auto;
+}
+
+.contact .contact-form .item .contact-label {
+  text-transform: capitalize;
+  margin: 0.3em auto;
+  display: block;
+  font-size: 20px;
+}
+input, textarea {
+  width: 90%;
+  padding: 5px;
+  font-size: 19px;
+  border: 4px solid #f0d7d7;
+  border-radius: 7px;
+  text-transform: capitalize;
+}
+textarea {
+  height: 13em;
+}
+.send-button{
+  width: 9em;
+  height: 3.5em;
+  font-size: 17px;
+  border: 4px solid #f0d7d7;
+  border-radius: 8px;
+  background: rgba(216, 98, 51, 0.829);
+  cursor: pointer;
+  text-transform: capitalize;
+
+}
+.map {
+  margin: 7em auto;
+}
+.map-description {
+  text-align: center;
+  margin: 20px;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 600;
+}
+.map-google {
+  background: #f0d7d7;
+  width: 100%;
+  height: 75%;
+  padding: 4px;
+  border-radius: 15px;
+}
+
+/*
+input{
+    width:450px;
+    padding: 5px;
+    font-size: 19px;
+    border: 4px solid $borderColor2;
+    text-transform: capitalize;
+}
+textarea{
+    width:450px;
+    height:14em;
+    padding: 5px;
+    font-size: 19px;
+    border: 4px solid $borderColor2;
+    text-transform: capitalize;
+
+}
+*/
+
+
+/* this line */
+
+
+
+
+
+
+
+
+
+.about-content {
+  width: 70%;
+  margin: 0em auto;
+  padding: 30px;
+  color: #dedede;
+  text-align: center;
+}
+.about-title {
+  margin: 1em;
+  text-transform: capitalize;
+}
+.about-text {
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
+.copyright {
+  padding: 20px;
+  text-align: center;
+  color: #343434;
+}
+.gdg {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=file.css.map */
+
