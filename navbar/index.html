@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>new</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+		<div class="hamburger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+		<ul class="nav-links">
+			<li><a href="#">DashBoard</a></li>
+			<li><a href="#">Messages</a></li>
+			<li><a href="#">Results</a></li>
+			<li><a href="#">Data</a></li>
+		</ul>
+</nav>
+
+
+
+
+
+<script type="text/javascript">
+	
+	const hamburger= document.querySelector(".hamburger");
+	const navlinks = document.querySelector(".nav-links");
+	const links = document.querySelectorAll(".nav-links li");
+	hamburger.addEventListener('click',()=>{
+		navlinks.classList.toggle("open");
+		
+	});
+
+</script>
+</body>
+</html>
